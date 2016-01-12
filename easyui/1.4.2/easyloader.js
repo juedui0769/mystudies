@@ -179,6 +179,14 @@
 			css:'datebox.css',
 			dependencies:['calendar','combo']
 		},
+		
+		//daterangebox:
+		daterangebox:{
+			js:'jquery.daterangebox.js',
+			css:'daterangebox.css',
+			dependencies:['calendar','combo','linkbutton']
+		},
+		
 		datetimebox:{
 			js:'jquery.datetimebox.js',
 			dependencies:['datebox','timespinner']

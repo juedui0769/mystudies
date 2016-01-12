@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>easyuiloader daterangebox</title>
+
+	<!-- 1.4.2 -->
+	<script type="text/javascript" src="../jquery.min.js"></script>
+	<script type="text/javascript" src="../easyloader.js"></script>
+
+	<script type="text/javascript">
+		//
+		$(function(){
+			$('body').css({
+				'margin':'10px 20px'
+			});
+
+			var input1 = $('<input>').appendTo($('body')).attr('id', 'dd').attr('type','text');
+
+			easyloader.locale = "zh_CN";
+			easyloader.base = "../";
+			using('daterangebox', function(){
+				$('#dd').daterangebox();
+			});
+		});
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
