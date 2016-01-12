@@ -16,7 +16,6 @@ if ($.messager){
 $.map(['validatebox','textbox','filebox','searchbox',
 		'combo','combobox','combogrid','combotree',
 		'datebox','datetimebox','numberbox',
-		'daterangebox',
 		'spinner','numberspinner','timespinner','datetimespinner'], function(plugin){
 	if ($.fn[plugin]){
 		$.fn[plugin].defaults.missingMessage = '该输入项为必输项';
@@ -64,29 +63,4 @@ if ($.fn.datetimebox && $.fn.datebox){
 }
 if ($.fn.datetimespinner){
 	$.fn.datetimespinner.defaults.selections = [[0,4],[5,7],[8,10],[11,13],[14,16],[17,19]]
-}
-
-//为"daterangebox"设置本地化信息:
-if ($.fn.daterangebox){
-	$.fn.daterangebox.defaults.currentText = '今天';
-	$.fn.daterangebox.defaults.closeText = '关闭';
-	$.fn.daterangebox.defaults.okText = '确定';
-	$.fn.daterangebox.defaults.formatter = function(date){
-		var y = date.getFullYear();
-		var m = date.getMonth()+1;
-		var d = date.getDate();
-		return y+'-'+(m<10?('0'+m):m)+'-'+(d<10?('0'+d):d);
-	};
-	$.fn.daterangebox.defaults.parser = function(s){
-		if (!s) return new Date();
-		var ss = s.split('-');
-		var y = parseInt(ss[0],10);
-		var m = parseInt(ss[1],10);
-		var d = parseInt(ss[2],10);
-		if (!isNaN(y) && !isNaN(m) && !isNaN(d)){
-			return new Date(y,m-1,d);
-		} else {
-			return new Date();
-		}
-	};
 }
