@@ -17,7 +17,8 @@
 
 			var input1 = $('<input>').appendTo($('body')).attr('id', 'dd').attr('type','text');
 
-			//easyloader.locale = "zh_CN";
+			//使用easyloader加载时,必须指明'zh_CN'本地化.否则将导致日期错乱.
+			easyloader.locale = "zh_CN";
 			easyloader.base = "../";
 			using('daterangebox', function(){
 				$('#dd').daterangebox();

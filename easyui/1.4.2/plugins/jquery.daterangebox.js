@@ -9,39 +9,12 @@
  */
 
 /**
- * daterangebox - jQuery EasyUI
+ * daterangebox
  * 
  * Dependencies:
  * 	 calendar
  *   combo
- * 
- * del:
- * (1)去除对'sharedCalendar'的支持. 'sharedCalendar'作用可以参考datebox的API .
-		相应去除'createBox'中的'onBeforeDestroy'.
- * (2)删除'doQuery'方法.因为范围日期选择不需要设计此功能.
- * (3)删除'cloneFrom'.范围日期选择暂时不考虑支持拷贝.
- * (4)删除okText:'Ok'
- * (5)删除bindEvents, setButtons
- * (6)删除doEnter
- * 
- * 重要:
- * (1)不能删除'doEnter',因为测试发现->Today btn->用到此方法. 所以保留'keyHandler'的存在.
- *
- * 其他:
- * (1)state.calendar -> 
-		(1.1)createBox
-		(1.2)setCalendar
-		(1.3)doEnter
-		(1.4)setValue
- * (2)setValue -> 
-		(2.1)onShowPanel
-		(2.2)onSelect
-		(2.3)doEnter
-		(2.4)$.fn.daterangebox.methods.setValue
- * (3)
- * 
- * add:
- * (1)
+ *	 linkbutton
  * 
  * 特性:
  * (1)基本功能->支持日期范围选取
