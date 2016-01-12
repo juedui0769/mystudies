@@ -145,7 +145,8 @@ var _22=$(_1e).combo("options");
 var _23=_21.panel("options");
 _23.comboTarget=_1e;
 if(_23.closed){
-_21.panel("panel").show().css({zIndex:($.fn.menu?$.fn.menu.defaults.zIndex++:$.fn.window.defaults.zIndex++),left:-999999});
+//_21.panel("panel").show().css({zIndex:($.fn.menu?$.fn.menu.defaults.zIndex++:$.fn.window.defaults.zIndex++),left:-999999});
+_21.panel("panel").show().css({zIndex:($.fn.menu?$.fn.menu.defaults.zIndex++:($.fn.window?$.fn.window.defaults.zIndex++:99)),left:-999999});
 _21.panel("resize",{width:(_22.panelWidth?_22.panelWidth:_20._outerWidth()),height:_22.panelHeight});
 _21.panel("panel").hide();
 _21.panel("open");
