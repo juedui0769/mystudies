@@ -1,0 +1,22 @@
+
+* 官网例子(demo)
+  |- http://www.jeasyui.com/demo/main/index.php?plugin=LinkButton&theme=default&dir=ltr&pitem=
+  |- 
+  |- 
+  |- 
+  |- 
+  |- 
+
+* 源码阅读
+  |- outline: 官方并未在API中放出,不知是否是未完善.
+  |- $.fn.linkbutton
+     |- 接受两个参数(options, param)
+     |- 不提供参数时,作为构造器使用.在当前元素存放初始化数据. $.data(this, 'linkbutton', {...})
+	 |- 提供参数时.分两种情况.
+	 |- 情形一: typeof options = string -> 调用linkbutton定义的方法.把param作为参数.
+	 |- 情形二: options = {} -> 修改linkbutton的默认属性.
+  |- 
+  |- 
+  |- 
+  |- 
+
