@@ -94,9 +94,11 @@
 					s = '{' + s + '}';
 				}
 				// new Function 参考 -> http://www.w3school.com.cn/js/pro_js_functions_function_object.asp
+				// 下面的代码实际是返回一个JSON.类似eval -> 参考 http://stackoverflow.com/questions/2449220/jquery-uses-new-functionreturn-data-instead-of-evaldata-to-parse
 				options = (new Function('return ' + s))();
 			}
 			//从下面代码可以看出,'style'中定义的如下属性会覆盖'data-options'中的定义的相同属性.
+			//全是和元素的宽高,及位置(top,left)有关的.
 			$.map(['width','height','left','top','minWidth','maxWidth','minHeight','maxHeight'], function(p){
 				var pv = $.trim(target.style[p] || '');
 				if (pv){
