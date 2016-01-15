@@ -52,7 +52,7 @@
 				if(i==1){
 					$('<span>-</span>').css({'margin': '0 5px'}).appendTo(td1);
 				}
-				n.css('width',80).appendTo(td1);
+				n.css('width',80).appendTo(td1);	//最好将'width'放到配置项.HIS项目中曾将80改为82因为日期显示不全.
 				n.textbox();
 				n.textbox('readonly',true);
 			});
@@ -268,6 +268,9 @@
 			var valArr = value.split(' - ');
 			leftVal = $.trim(valArr[0]);
 			rightVal = $.trim(valArr[1]);
+			//Add: 当调用构造方法给daterangebox赋初值时,需要同时为'leftInput','rightInput'赋值.
+			state.leftInput.textbox('setValue', leftVal);
+			state.rightInput.textbox('setValue', rightVal);
 		}
 
 		var leftDate = opts.parser.call(target, leftVal), ld = leftDate;
@@ -275,8 +278,8 @@
 		controlRightCalendar(state, new Date(ld.getFullYear()+'/'+(ld.getMonth()+1)+'/'+ld.getDate()).getTime());
 		state.calendar.calendar('moveTo', leftDate);
 		state.calendarRight.calendar('moveTo', opts.parser.call(target, rightVal));
-		
-		
+		//Add: 当调用构造方法给daterangebox赋初值时,需要调用如下方法.
+		$(target).combo('setText', value).combo('setValue', value);
 		
 		/*if (remainText){
 			$(target).combo('setValue', value);
