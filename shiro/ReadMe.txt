@@ -16,6 +16,10 @@
   |- http://jinnianshilongnian.iteye.com/blog/2018398
 
 
+* Shiro 那点事儿
+  |- http://my.oschina.net/huangyong/blog/208783
+
+
 * 一些概念
   |- * http://www.docin.com/p-265759178.html
   |- 
