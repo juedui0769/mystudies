@@ -1,0 +1,9 @@
+
+* sublime HTML 格式化插件
+  |- 参考如下网页
+  |- http://www.5imb.com/show-83-5884-1.html
+  |- 
+  |- PCI 中安装 TAG
+  |- 
+  |- 全选HMTL , Ctrl+Alt+F 格式化.
+  |- 

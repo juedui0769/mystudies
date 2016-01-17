@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>maven-core_artifact-handlers</title>
+</head>
+<body>
+	<table border="1" class="table table-striped">
+		<tr class="a">
+			<th align="left">type</th>
+			<th align="left">extension</th>
+			<th align="left">packaging</th>
+			<th align="left">classifier</th>
+			<th align="left">language</th>
+			<th align="left">added to classpath</th>
+			<th align="left">includesDependencies</th>
+		</tr>
+		<tr class="b">
+			<td align="left">
+				<tt>pom</tt>
+			</td>
+			<td align="left"> <i>= type</i>
+			</td>
+			<td align="left"> <i>= type</i>
+			</td>
+			<td align="left"></td>
+			<td align="left">none</td>
+			<td align="left"></td>
+			<td align="left"></td>
+		</tr>
+		<tr class="a">
+			<td align="left">
+				<tt>jar</tt>
+			</td>
+			<td align="left">
+				<i>= type</i>
+			</td>
+			<td align="left">
+				<i>= type</i>
+			</td>
+			<td align="left"></td>
+			<td align="left">java</td>
+			<td align="left">
+				<tt>true</tt>
+			</td>
+			<td align="left"></td>
+		</tr>
+		<tr class="b">
+			<td align="left">
+				<tt>maven-plugin</tt>
+			</td>
+			<td align="left">
+				<tt>jar</tt>
+			</td>
+			<td align="left">
+				<i>= type</i>
+			</td>
+			<td align="left"></td>
+			<td align="left">java</td>
+			<td align="left">
+				<tt>true</tt>
+			</td>
+			<td align="left"></td>
+		</tr>
+		<tr class="a">
+			<td align="left">
+				<tt>ejb</tt>
+			</td>
+			<td align="left">
+				<tt>jar</tt>
+			</td>
+			<td align="left">
+				<i>= type</i>
+			</td>
+			<td align="left"></td>
+			<td align="left">java</td>
+			<td align="left">
+				<tt>true</tt>
+			</td>
+			<td align="left"></td>
+		</tr>
+		<tr class="b">
+			<td align="left">
+				<tt>ejb3</tt>
+			</td>
+			<td align="left">
+				<i>= type</i>
+			</td>
+			<td align="left">
+				<i>= type</i>
+			</td>
+			<td align="left"></td>
+			<td align="left">java</td>
+			<td align="left"></td>
+			<td align="left">
+				<tt>true</tt>
+			</td>
+		</tr>
+		<tr class="a">
+			<td align="left">
+				<tt>war</tt>
+			</td>
+			<td align="left">
+				<i>= type</i>
+			</td>
+			<td align="left">
+				<i>= type</i>
+			</td>
+			<td align="left"></td>
+			<td align="left">java</td>
+			<td align="left"></td>
+			<td align="left">
+				<tt>true</tt>
+			</td>
+		</tr>
+		<tr class="b">
+			<td align="left">
+				<tt>ear</tt>
+			</td>
+			<td align="left">
+				<i>= type</i>
+			</td>
+			<td align="left">
+				<i>= type</i>
+			</td>
+			<td align="left"></td>
+			<td align="left">java</td>
+			<td align="left"></td>
+			<td align="left">
+				<tt>true</tt>
+			</td>
+		</tr>
+		<tr class="a">
+			<td align="left">
+				<tt>rar</tt>
+			</td>
+			<td align="left">
+				<i>= type</i>
+			</td>
+			<td align="left">
+				<i>= type</i>
+			</td>
+			<td align="left"></td>
+			<td align="left">java</td>
+			<td align="left"></td>
+			<td align="left">
+				<tt>true</tt>
+			</td>
+		</tr>
+		<tr class="b">
+			<td align="left">
+				<tt>par</tt>
+			</td>
+			<td align="left">
+				<i>= type</i>
+			</td>
+			<td align="left">
+				<i>= type</i>
+			</td>
+			<td align="left"></td>
+			<td align="left">java</td>
+			<td align="left"></td>
+			<td align="left">
+				<tt>true</tt>
+			</td>
+		</tr>
+		<tr class="a">
+			<td align="left">
+				<tt>java-source</tt>
+			</td>
+			<td align="left">
+				<tt>jar</tt>
+			</td>
+			<td align="left">
+				<i>= type</i>
+			</td>
+			<td align="left">
+				<tt>sources</tt>
+			</td>
+			<td align="left">java</td>
+			<td align="left"></td>
+			<td align="left"></td>
+		</tr>
+		<tr class="b">
+			<td align="left">
+				<tt>javadoc</tt>
+			</td>
+			<td align="left">
+				<tt>jar</tt>
+			</td>
+			<td align="left">
+				<i>= type</i>
+			</td>
+			<td align="left">
+				<tt>javadoc</tt>
+			</td>
+			<td align="left">java</td>
+			<td align="left">
+				<tt>true</tt>
+			</td>
+			<td align="left"></td>
+		</tr>
+		<tr class="a">
+			<td align="left">
+				<tt>ejb-client</tt>
+			</td>
+			<td align="left">
+				<tt>jar</tt>
+			</td>
+			<td align="left">
+				<tt>ejb</tt>
+			</td>
+			<td align="left">
+				<tt>client</tt>
+			</td>
+			<td align="left">java</td>
+			<td align="left">
+				<tt>true</tt>
+			</td>
+			<td align="left"></td>
+		</tr>
+		<tr class="b">
+			<td align="left">
+				<tt>test-jar</tt>
+			</td>
+			<td align="left">
+				<tt>jar</tt>
+			</td>
+			<td align="left">
+				<tt>jar</tt>
+			</td>
+			<td align="left">
+				<tt>tests</tt>
+			</td>
+			<td align="left">java</td>
+			<td align="left">
+				<tt>true</tt>
+			</td>
+			<td align="left"></td>
+		</tr>
+	</table>
+</body>
+</html>
