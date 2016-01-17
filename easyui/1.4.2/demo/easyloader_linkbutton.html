@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>easyuiloader linkbutton</title>
+
+	<!-- 1.4.2 -->
+	<script type="text/javascript" src="../jquery.min.js"></script>
+	<script type="text/javascript" src="../easyloader.js"></script>
+
+	<script type="text/javascript">
+		//
+		$(function(){
+			$('body').css({
+				'margin':'10px 20px'
+			});
+
+			var input1 = $('<input>').appendTo($('body')).attr('id', 'dd').attr('type','text');
+			input1.html('按钮一');
+			//使用easyloader加载时,必须指明'zh_CN'本地化.否则将导致日期错乱.
+			easyloader.locale = "zh_CN";
+			easyloader.base = "../";
+			using('linkbutton', function(){
+				$('#btn').linkbutton({
+					text: '按钮一',
+					onClick: function(){
+						//
+						console.log('this: ', this);
+					}
+				});
+			});
+		});
+	</script>
+</head>
+<body>
+	<a id="btn" href="javascript:void(0);">easyui</a>
+</body>
+</html>
