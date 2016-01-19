@@ -20,3 +20,33 @@
   |- 
   |- 
   |- 
+
+* Maven 源码阅读
+  |- 
+  |- 官网下载地址只提供 bin, src 的压缩包下载.貌似没有带doc的压缩包下载.
+  |- 
+  |- 解压src会看到有很多子目录. 如下: 
+apache-maven, maven-aether-provider, maven-artifact, maven-compat, 
+maven-core, maven-embedder, maven-model, maven-model-builder, 
+maven-plugin-api, maven-repository-metadata, maven-settings, 
+maven-settings-builder, src
+  |- 
+  |- 打开任何文件夹都有 pom.xml 文件. 从中可以看到很多有用的信息. maven-core下还有test
+  |- 
+  |- 
+  |- 
+  |- 
+  |- 
+  |- 
+  |- 
+  |- 
+  |- 
+  |- 
+  |- 
+  |- 
+  |- 
+  |- 
+  |- 
+
+
+

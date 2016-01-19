@@ -1,0 +1,14 @@
+<dependencies>
+    <!--<dependency> <groupId>org.codehaus.plexus</groupId> <artifactId>plexus-utils</artifactId> 
+        <version>3.0.22</version> <type>jar</type> </dependency> <dependency> <groupId>org.codehaus.plexus</groupId> 
+        <artifactId>plexus-utils</artifactId> <version>3.0.22</version> <type>java-source</type> 
+        </dependency> -->
+    <dependency>
+        <groupId>org.apache.maven</groupId>
+        <artifactId>maven-artifact</artifactId>
+        <version>3.1.0</version>
+    </dependency>
+</dependencies>
+
+
+* 如上. 将 maven-artifact 导入到eclipse的maven项目中.然后观察学习其源码.
