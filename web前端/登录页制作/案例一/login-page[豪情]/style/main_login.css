@@ -1,0 +1,45 @@
+@charset "utf-8";
+/********************************
+ * autor: 豪情                   
+ * time:  2010-07-               
+ * link:   puag@qq.com  
+ * info:   main-login-css
+ * 豪情壮志不言愁 
+ * 恰似一江春水向东流
+ *******************************/ 
+body{margin:0;padding:0;text-align:center;font-size:12px;font-family:arial,helvetica,sans-serif,"宋体";}
+/*body{background:url(../images/main_bg.gif) repeat-x top center #0e85c2;}*/
+body{background:url(../images/main_bg.gif) repeat-x top center #0e85c2;}
+
+#main img{border:0;}
+#main ul, #main li{list-style:none;}
+#main a{color:#fff;text-decoration:none;outline:none;}
+#main a:link{color:#fff;text-decoration:none;}
+#main a:visited{color:#fff;text-decoration:none;}
+#main a:hover{color:#fe9715;text-decoration:underline;}
+#main{width:960px;margin:0 auto;}
+#logo{position:absolute;top:35px;left:180px;width:694px;height:466px;background:url(../images/login_logo.gif) no-repeat;}
+#wrapper{width:694px;height:466px;top:188px;margin-left:auto;margin-right:auto;background:url(../images/loginmain_bg.gif) no-repeat;position:relative;}
+#sys_name{position:absolute;top:117px;left:95px;font-size:24px;font-family:"微软雅黑";}
+#cont{margin:0;padding:0;position:absolute;top:90px;left:358px;}
+#cont li{height:35px;line-height:35px;text-align:left;}
+#cont li label.lb{float:left;width:50px;padding:0 5px;line-height:35px;text-align:right;}
+#cont li input.ip{width:132px;border:#41a1be 1px solid;font-size:12px;background:url(../images/inputstyle.gif) repeat-x;color:#898989;font-family:,"verdana";height:20px;line-height:20px;padding:2px;}
+#cont li span{display:block;padding-left:60px;}
+#cont span{padding-left:3px;padding-top:6px;}
+.entestyle{background:url(../images/login_logo.gif) no-repeat;width:115px;height:36px;}
+#copy{margin:0 auto;position:relative;top:345px;color:#fff;}
+
+/*Add: 测试添加*/
+#main {border: 1px solid yellow;}
+#wrapper {border: 1px solid red;}
+#sys_name {border: 1px solid yellow;}
+#cont {border: 1px solid yellow;}
+#copy {border: 1px solid yellow;}
+
+
+
+
+
+
+
