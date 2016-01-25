@@ -9,13 +9,19 @@ import java.util.Map;
 
 import org.junit.Assert;
 import org.junit.FixMethodOrder;
-import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
+import org.nutz.lang.Each;
 import org.nutz.lang.Lang;
+import org.nutz.lang.MapKeyConvertor;
 
 import com.wxg.bean.Person;
 
+/**
+ * http://tool.oschina.net/uploads/apidocs/nutz-1.b.44/org/nutz/lang/Lang.html
+ * @author wxg
+ *
+ */
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class LangTest {
 
@@ -93,14 +99,6 @@ public class LangTest {
 		Assert.assertEquals("[javascript, nutz, java]", map.keySet().toString());
 	}
 	
-	@Ignore
-	@Test
-	public void array2ObjectArray(){
-		/**
-		 * 这个作用貌似不大.不测试了.
-		 */
-	}
-	
 	@Test
 	public void arrayFirst(){
 		String[] strs = Lang.array("11","22","33");
@@ -142,4 +140,54 @@ public class LangTest {
 		Assert.assertEquals("11, 22, 33, 44, 55, ", Lang.concatBy("%s, ", strs).toString());
 	}
 	
+	@Test
+	public void contains(){
+		String[] strs = Lang.array("11","22","33", "44","55");
+		Assert.assertTrue( Lang.contains(strs, "11") );
+	}
+	
+	@Test
+	public void convertMapKey(){
+		/**
+		 * convertMapKey(Object obj, MapKeyConvertor mkc, boolean recur)
+		 * 第三个参数代表是否递归.
+		 */
+		Map<String,String> map = new HashMap<String,String>();
+		map.put("aa", "11");
+		map.put("bb", "22");
+		map.put("cc", "33");
+		Assert.assertEquals("{aa=11, bb=22, cc=33}", map.toString());
+		Lang.convertMapKey(map, new MapKeyConvertor(){
+			public String convertKey(String key){
+				return key+"->";
+			}
+		}, false);
+		Assert.assertEquals("{bb->=22, cc->=33, aa->=11}", map.toString());
+	}
+	
+	@Test
+	public void each(){
+		String[] strs = Lang.array("11","22","33");
+		final List<String> list = new ArrayList<String>();
+		Lang.each(strs, new Each<String>(){
+			public void invoke(int i, String ele, int length){
+				list.add(ele+"00");
+			}
+		});
+		Assert.assertEquals("[11, 22, 33]", Arrays.toString(strs));
+		Assert.assertEquals("[1100, 2200, 3300]", Arrays.toString(list.toArray()));
+	}
+	
+	@Test
+	public void equals(){
+		String[] strs = Lang.array("11","22","33");
+		String[] strs2 = Lang.array("11","22","33");
+		//Assert.assertArrayEquals(strs, strs2);
+		Assert.assertTrue(Lang.equals(strs, strs2));
+	}
+	
+	/**
+	 * 写到这里,发现原来发下的愿望太大了: 把nutz的每个API都测试一遍.以期掌握nutz.
+	 * 现在决定. 缩小愿望: 把一些重要的API测试下. 经常翻阅API文档. 发现新的重要的,再加入进来.
+	 */
 }
