@@ -1,5 +1,5 @@
-
-* Maven4.0 Xml Schema µÄµØÖ·:
+ï»¿
+* Maven4.0 Xml Schema çš„åœ°å€:
   |- 
   |- http://maven.apache.org/xsd/maven-4.0.0.xsd
   |- 
@@ -7,31 +7,31 @@
   |- 
   |- 
 
-* ÔÚxsdÖĞËÑË÷ÏÂÃæcodeÄÜÕÒµ½'Dependency'ÖĞÄÜ¹»°üº¬µÄËùÓĞÔªËØ.
+* åœ¨xsdä¸­æœç´¢ä¸‹é¢codeèƒ½æ‰¾åˆ°'Dependency'ä¸­èƒ½å¤ŸåŒ…å«çš„æ‰€æœ‰å…ƒç´ .
   |- 
   |- <xs:complexType name="Dependency">
   |- 
   |- type : pom, jar, maven-plugin, ejb, ejb3, war, rar, par, java-source, javadoc, ejb-client, test-jar
-  |- ²Î¿¼ http://maven.apache.org/ref/3.3.9/maven-core/artifact-handlers.html
-  |- »ò²Î¿¼: µ±Ç°Ä¿Â¼(»ò×ÓÄ¿Â¼)ÏÂµÄ 001_maven-core_artifact-handlers.html
+  |- å‚è€ƒ http://maven.apache.org/ref/3.3.9/maven-core/artifact-handlers.html
+  |- æˆ–å‚è€ƒ: å½“å‰ç›®å½•(æˆ–å­ç›®å½•)ä¸‹çš„ 001_maven-core_artifact-handlers.html
   |- 
-  |- typeµÄÖµÖ»ÄÜĞ´Ò»¸ö,Ä¬ÈÏÊÇjar. ²»ÄÜĞ´³É <type>jar,java-source</type> .
+  |- typeçš„å€¼åªèƒ½å†™ä¸€ä¸ª,é»˜è®¤æ˜¯jar. ä¸èƒ½å†™æˆ <type>jar,java-source</type> .
   |- 
   |- 
   |- 
   |- 
 
-* Maven Ô´ÂëÔÄ¶Á
+* Maven æºç é˜…è¯»
   |- 
-  |- ¹ÙÍøÏÂÔØµØÖ·Ö»Ìá¹© bin, src µÄÑ¹Ëõ°üÏÂÔØ.Ã²ËÆÃ»ÓĞ´ødocµÄÑ¹Ëõ°üÏÂÔØ.
+  |- å®˜ç½‘ä¸‹è½½åœ°å€åªæä¾› bin, src çš„å‹ç¼©åŒ…ä¸‹è½½.è²Œä¼¼æ²¡æœ‰å¸¦docçš„å‹ç¼©åŒ…ä¸‹è½½.
   |- 
-  |- ½âÑ¹src»á¿´µ½ÓĞºÜ¶à×ÓÄ¿Â¼. ÈçÏÂ: 
+  |- è§£å‹srcä¼šçœ‹åˆ°æœ‰å¾ˆå¤šå­ç›®å½•. å¦‚ä¸‹: 
 apache-maven, maven-aether-provider, maven-artifact, maven-compat, 
 maven-core, maven-embedder, maven-model, maven-model-builder, 
 maven-plugin-api, maven-repository-metadata, maven-settings, 
 maven-settings-builder, src
   |- 
-  |- ´ò¿ªÈÎºÎÎÄ¼ş¼Ğ¶¼ÓĞ pom.xml ÎÄ¼ş. ´ÓÖĞ¿ÉÒÔ¿´µ½ºÜ¶àÓĞÓÃµÄĞÅÏ¢. maven-coreÏÂ»¹ÓĞtest
+  |- æ‰“å¼€ä»»ä½•æ–‡ä»¶å¤¹éƒ½æœ‰ pom.xml æ–‡ä»¶. ä»ä¸­å¯ä»¥çœ‹åˆ°å¾ˆå¤šæœ‰ç”¨çš„ä¿¡æ¯. maven-coreä¸‹è¿˜æœ‰test
   |- 
   |- 
   |- 

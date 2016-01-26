@@ -1,5 +1,5 @@
-
-* ��������(demo)
+﻿
+* 官网例子(demo)
   |- http://www.jeasyui.com/demo/main/index.php?plugin=LinkButton&theme=default&dir=ltr&pitem=
   |- 
   |- 
@@ -7,43 +7,43 @@
   |- 
   |- 
 
-* Դ���Ķ�
-  |- outline: �ٷ���δ��API�зų�,��֪�Ƿ���δ����.
+* 源码阅读
+  |- outline: 官方并未在API中放出,不知是否是未完善.
   |- $.fn.linkbutton
-     |- ������������(options, param)
-     |- ���ṩ����ʱ,��Ϊ������ʹ��.�ڵ�ǰԪ�ش�ų�ʼ������. $.data(this, 'linkbutton', {...})
-	 |- �ṩ����ʱ.���������.
-	 |- ����һ: typeof options = string -> ����linkbutton����ķ���.��param��Ϊ����.
-	 |- ���ζ�: options = {} -> �޸�linkbutton��Ĭ������.
-	    �¼�����ͨ�����ַ�ʽ��¶���û���д��.(����easyui�ķ�ʽ.�¼�������default�е�.Ȼ��ᱻ������options��.)
-  |- ��עeasyuiһ��ʱ�����,���������Դ���ʽ����:
-     |- �ڹ��췽��(������˳ƺ�)֮��,�ṩ'methods','parseOptions','defaults'.����:
+     |- 接受两个参数(options, param)
+     |- 不提供参数时,作为构造器使用.在当前元素存放初始化数据. $.data(this, 'linkbutton', {...})
+	 |- 提供参数时.分两种情况.
+	 |- 情形一: typeof options = string -> 调用linkbutton定义的方法.把param作为参数.
+	 |- 情形二: options = {} -> 修改linkbutton的默认属性.
+	    事件就是通过这种方式暴露给用户重写的.(这是easyui的方式.事件定义在default中的.然后会被拷贝到options中.)
+  |- 关注easyui一段时间后发现,所有组件的源码格式都是:
+     |- 在构造方法(姑且如此称呼)之后,提供'methods','parseOptions','defaults'.如下:
 	 |- $.fn.linkbutton
 	 |- $.fn.linkbutton.methods
 	 |- $.fn.linkbutton.parseOptions
 	 |- $.fn.linkbutton.defaults
-  |- $.fn.linkbutton.defaults ��.
-	 |- ֻ��һ��'onClick'�¼�. ���ǻص����ɵ�ʹ��.��Դ�����ṩһ����ʵ��.�����û���д.
-	    Դ�������ط�ͨ��opts.onClick.call(this);����.(defaults �ڹ��췽����һ�ε���ʱ���Ѿ������� options ����.)
+  |- $.fn.linkbutton.defaults 中.
+	 |- 只有一个'onClick'事件. 这是回调技巧的使用.在源码中提供一个空实现.留给用户重写.
+	    源码其他地方通过opts.onClick.call(this);调用.(defaults 在构造方法第一次调用时就已经拷贝到 options 中了.)
 	 |-
-  |- ��easyuiԴ��,һ��ϰ���ȴӹ��췽����ʼ���¿�. ��������.
+  |- 看easyui源码,一般习惯先从构造方法开始往下看. 其他随意.
   |- 
-  |- Դ���л�ʣ��: setSize, createButton, setSelected, setDisabled �ĸ�function
-     $.fn.linkbutton.methods �ж����ṩ�ķ���,Դ���ж��Ǽ�ӵ��������ĸ�����ʵ��.options��������.
+  |- 源码中还剩下: setSize, createButton, setSelected, setDisabled 四个function
+     $.fn.linkbutton.methods 中对外提供的方法,源码中都是间接调用上面四个方法实现.options方法除外.
   |- 
   |- setSize
-    |- $.extend(opts, param); -> param�ϵ����ԻḴ�Ƶ�opts��. ���е�����,value�ᱻ�޸�.
-	  opts = $.extend(opts, param); Ҳ��,��������һ��,�������ֵ����.
-	|- var isVisible = btn.is(':visible'); -> is ��jquery�ṩ�ķ���.
+    |- $.extend(opts, param); -> param上的属性会复制到opts上. 已有的属性,value会被修改.
+	  opts = $.extend(opts, param); 也行,但不需多此一举,做这个赋值动作.
+	|- var isVisible = btn.is(':visible'); -> is 是jquery提供的方法.
 	|- 
 	|- 
 	|- 
   |- 
     |- createButton
     |- var t = $(target).empty(); -> 
-	  ������������ı�ǩ <a id="btn" href="#" class="easyui-linkbutton">easyui</a>
-	  empty() -> ��ɵ�<a>��ǩ��HTML����.
-	  ���õ���, $.fn.linkbutton.parseOptions�� -> text: $.trim(t.html()) -> ���ݻᱻ������options��.
+	  如果定义这样的标签 <a id="btn" href="#" class="easyui-linkbutton">easyui</a>
+	  empty() -> 会干掉<a>标签的HTML内容.
+	  不用担心, $.fn.linkbutton.parseOptions中 -> text: $.trim(t.html()) -> 内容会被拷贝到options中.
 	|- 
 	|- 
 	|- 

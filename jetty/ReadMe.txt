@@ -1,17 +1,17 @@
-
-* jetty¹ÙÍø
+ï»¿
+* jettyå®˜ç½‘
   |- http://www.eclipse.org/jetty/
   |- 
   |- 
   |- 
   |- 
 
-* ºÍMavenÒ»ÆğÊ¹ÓÃ.
+* å’ŒMavenä¸€èµ·ä½¿ç”¨.
   |- 
-  |- [Group Id][org.codehaus.mojo.archetypes] - [Artifact Id][webapp-javaee7] - ÍÆ¼ö
+  |- [Group Id][org.codehaus.mojo.archetypes] - [Artifact Id][webapp-javaee7] - æ¨è
   |- 
   |- 
-  |- [Group Id][org.apache.maven.archetypes] - [Artifact Id][maven-archetype-webapp] - ¾­³£ÓÃ.
+  |- [Group Id][org.apache.maven.archetypes] - [Artifact Id][maven-archetype-webapp] - ç»å¸¸ç”¨.
   |- 
   |- 
   |- 

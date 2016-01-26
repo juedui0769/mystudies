@@ -1,8 +1,8 @@
-
-* eval -> ²Î¼û jquery.parser.js
-	|- (new Function('return ' + s))() Ïàµ±ÓÚÊÇÓÃevalÀ´½âÎöÒ»¸ö×Ö·û´®.
-// new Function ²Î¿¼ -> http://www.w3school.com.cn/js/pro_js_functions_function_object.asp
-// ÏÂÃæµÄ´úÂëÊµ¼ÊÊÇ·µ»ØÒ»¸öJSON.ÀàËÆeval -> ²Î¿¼ http://stackoverflow.com/questions/2449220/jquery-uses-new-functionreturn-data-instead-of-evaldata-to-parse
+ï»¿
+* eval -> å‚è§ jquery.parser.js
+	|- (new Function('return ' + s))() ç›¸å½“äºæ˜¯ç”¨evalæ¥è§£æä¸€ä¸ªå­—ç¬¦ä¸².
+// new Function å‚è€ƒ -> http://www.w3school.com.cn/js/pro_js_functions_function_object.asp
+// ä¸‹é¢çš„ä»£ç å®é™…æ˜¯è¿”å›ä¸€ä¸ªJSON.ç±»ä¼¼eval -> å‚è€ƒ http://stackoverflow.com/questions/2449220/jquery-uses-new-functionreturn-data-instead-of-evaldata-to-parse
 options = (new Function('return ' + s))();
 
 

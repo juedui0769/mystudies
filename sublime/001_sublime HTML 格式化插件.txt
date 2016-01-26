@@ -1,9 +1,9 @@
-
-* sublime HTML ¸ñÊ½»¯²å¼ş
-  |- ²Î¿¼ÈçÏÂÍøÒ³
+ï»¿
+* sublime HTML æ ¼å¼åŒ–æ’ä»¶
+  |- å‚è€ƒå¦‚ä¸‹ç½‘é¡µ
   |- http://www.5imb.com/show-83-5884-1.html
   |- 
-  |- PCI ÖĞ°²×° TAG
+  |- PCI ä¸­å®‰è£… TAG
   |- 
-  |- È«Ñ¡HMTL , Ctrl+Alt+F ¸ñÊ½»¯.
+  |- å…¨é€‰HMTL , Ctrl+Alt+F æ ¼å¼åŒ–.
   |- 
