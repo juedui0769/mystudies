@@ -1,4 +1,4 @@
-
+ï»¿
 *
 http://stackoverflow.com/questions/1751551/maven-how-to-export-project-with-sources-and-dependencies
 
@@ -31,7 +31,7 @@ http://stackoverflow.com/questions/97640/force-maven2-to-copy-dependencies-into-
 
 
 *
-¿½±´ÉÏÃæµÄ´úÂëµ½pom.xmlÖĞ,ÔËĞĞ"mvn package"
+æ‹·è´ä¸Šé¢çš„ä»£ç åˆ°pom.xmlä¸­,è¿è¡Œ"mvn package"
 
 
 
