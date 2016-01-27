@@ -1,7 +1,7 @@
 var ioc = {
 	xb : {
 		events: {
-			fetch: 'com.wxg.nutz.offcial.ioc.events.OnFetchPet'
+			fetch: 'com.wxg.nutz.official.ioc.events.OnFetchPet'
 		},
 		fields: {
 			name: 'XiaoBai'

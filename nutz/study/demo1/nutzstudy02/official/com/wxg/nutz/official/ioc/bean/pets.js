@@ -4,7 +4,7 @@ var ioc = {
 		birthday : '2009-10-25 15:23:40'
 	},
 	xiaohei : {
-		type : 'com.wxg.nutz.offcial.ioc.bean.Pet',
+		type : 'com.wxg.nutz.official.ioc.bean.Pet',
 		singleton : false,
 		args : [ 'XiaoHei' ],
 		fields : {

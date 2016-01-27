@@ -1,4 +1,4 @@
-package com.wxg.nutz.offcial.ioc;
+package com.wxg.nutz.official.ioc;
 
 
 
@@ -8,7 +8,9 @@ import org.nutz.ioc.Ioc;
 import org.nutz.ioc.impl.NutIoc;
 import org.nutz.ioc.loader.json.JsonLoader;
 
-import com.wxg.nutz.offcial.ioc.bean.Pet;
+import com.wxg.nutz.official.ioc.bean.Pet;
+
+
 
 /**
  * http://www.nutzam.com/core/ioc/hello.html
@@ -19,7 +21,7 @@ public class HelloIoc {
 
 	@Test
 	public void helloPet(){
-		Ioc ioc = new NutIoc(new JsonLoader("com/wxg/nutz/offcial/ioc/bean/pets.js"));
+		Ioc ioc = new NutIoc(new JsonLoader("com/wxg/nutz/official/ioc/bean/pets.js"));
 		Pet pet = ioc.get(Pet.class, "xiaobai");
 		Assert.assertEquals("XiaoBai", pet.getName());
 		Assert.assertEquals("Asia/Shanghai", pet.getBirthday().getTimeZone().getID());
@@ -42,14 +44,14 @@ public class HelloIoc {
 		/**
 		 * http://www.nutzam.com/core/ioc/inner_object.html
 		 */
-		Ioc ioc = new NutIoc(new JsonLoader("com/wxg/nutz/offcial/ioc/bean/inner.js"));
+		Ioc ioc = new NutIoc(new JsonLoader("com/wxg/nutz/official/ioc/bean/inner.js"));
 		Pet pet = ioc.get(Pet.class, "xb");
 		Assert.assertEquals("XiaoHei", pet.getFriend().getName());
 	}
 	
 	@Test
 	public void events(){
-		Ioc ioc = new NutIoc(new JsonLoader("com/wxg/nutz/offcial/ioc/bean/events.js"));
+		Ioc ioc = new NutIoc(new JsonLoader("com/wxg/nutz/official/ioc/bean/events.js"));
 		Pet pet = ioc.get(Pet.class, "xb");
 		ioc.get(Pet.class, "xb");
 		ioc.get(Pet.class, "xb");
@@ -59,7 +61,7 @@ public class HelloIoc {
 	
 	@Test
 	public void events2(){
-		Ioc ioc = new NutIoc(new JsonLoader("com/wxg/nutz/offcial/ioc/bean/events2.js"));
+		Ioc ioc = new NutIoc(new JsonLoader("com/wxg/nutz/official/ioc/bean/events2.js"));
 		Pet pet = ioc.get(Pet.class, "xh");
 		ioc.get(Pet.class, "xh");
 		Assert.assertEquals(2, pet.getFetchCount());

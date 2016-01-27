@@ -1,4 +1,4 @@
-package com.wxg.nutz.offcial;
+package com.wxg.nutz.official;
 
 
 import org.junit.Assert;

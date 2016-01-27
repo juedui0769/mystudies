@@ -1,6 +1,5 @@
-package com.wxg.nutz.offcial;
+package com.wxg.nutz.official;
 
-import java.io.Reader;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;

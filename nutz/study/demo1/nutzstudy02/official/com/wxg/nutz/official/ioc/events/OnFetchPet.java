@@ -1,8 +1,8 @@
-package com.wxg.nutz.offcial.ioc.events;
+package com.wxg.nutz.official.ioc.events;
 
 import org.nutz.ioc.IocEventTrigger;
 
-import com.wxg.nutz.offcial.ioc.bean.Pet;
+import com.wxg.nutz.official.ioc.bean.Pet;
 
 /**
  * http://www.nutzam.com/core/ioc/events.html

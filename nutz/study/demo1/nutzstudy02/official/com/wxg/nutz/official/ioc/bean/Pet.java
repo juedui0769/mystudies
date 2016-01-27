@@ -1,4 +1,4 @@
-package com.wxg.nutz.offcial.ioc.bean;
+package com.wxg.nutz.official.ioc.bean;
 
 import java.util.Calendar;
 

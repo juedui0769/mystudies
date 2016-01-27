@@ -1,4 +1,4 @@
-package com.wxg.nutz.offcial.ioc;
+package com.wxg.nutz.official.ioc;
 
 import org.junit.Test;
 
