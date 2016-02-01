@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.wxg</groupId>
-	<artifactId>nutzstudy02</artifactId>
+	<artifactId>webmagic01</artifactId>
 	<version>0.0.1</version>
 	<packaging>jar</packaging>
 
-	<name>nutzstudy02</name>
+	<name>webmagic01</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -20,44 +20,37 @@
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.12</version>
-			<type>jar</type>
+		</dependency>
+		<!-- webmagic -->
+		<dependency>
+			<groupId>us.codecraft</groupId>
+			<artifactId>webmagic-extension</artifactId>
+			<version>0.5.2</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.slf4j</groupId>
+					<artifactId>slf4j-log4j12</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.12</version>
+			<groupId>us.codecraft</groupId>
+			<artifactId>webmagic-extension</artifactId>
+			<version>0.5.2</version>
 			<type>java-source</type>
-		</dependency>
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.12</version>
-			<type>javadoc</type>
-		</dependency>
-		<!-- nutz -->
-		<dependency>
-			<groupId>org.nutz</groupId>
-			<artifactId>nutz</artifactId>
-			<version>1.r.54</version>
-			<type>jar</type>
-		</dependency>
-		<dependency>
-			<groupId>org.nutz</groupId>
-			<artifactId>nutz</artifactId>
-			<version>1.r.54</version>
-			<type>java-source</type>
-		</dependency>
-		<dependency>
-			<groupId>org.nutz</groupId>
-			<artifactId>nutz</artifactId>
-			<version>1.r.54</version>
-			<type>javadoc</type>
 		</dependency>
 		<!-- log4j -->
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
 			<version>1.2.17</version>
+		</dependency>
+		<!-- jsoup -->
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>1.7.2</version>
+			<type>java-source</type>
 		</dependency>
 		<!-- mysql -->
 		<dependency>
@@ -78,11 +71,25 @@
 			<version>1.0.16</version>
 			<type>java-source</type>
 		</dependency>
-		<!-- sqlserver -->
+		<!-- nutz -->
 		<dependency>
-			<groupId>com.hynnet</groupId>
-			<artifactId>sqljdbc4-chs</artifactId>
-			<version>4.0.2206.100</version>
+			<groupId>org.nutz</groupId>
+			<artifactId>nutz</artifactId>
+			<version>1.r.54</version>
+			<type>jar</type>
 		</dependency>
+		<dependency>
+			<groupId>org.nutz</groupId>
+			<artifactId>nutz</artifactId>
+			<version>1.r.54</version>
+			<type>java-source</type>
+		</dependency>
+		<dependency>
+			<groupId>org.nutz</groupId>
+			<artifactId>nutz</artifactId>
+			<version>1.r.54</version>
+			<type>javadoc</type>
+		</dependency>
+		<!--  -->
 	</dependencies>
 </project>
