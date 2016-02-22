@@ -97,5 +97,19 @@
 			<version>1.10</version>
 			<type>java-source</type>
 		</dependency>
+		<!-- commons-pool2 -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-pool2</artifactId>
+			<version>2.4.2</version>
+			<type>jar</type>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-pool2</artifactId>
+			<version>2.4.2</version>
+			<type>java-source</type>
+		</dependency>
+		
 	</dependencies>
 </project>
