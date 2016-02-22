@@ -84,5 +84,18 @@
 			<artifactId>sqljdbc4-chs</artifactId>
 			<version>4.0.2206.100</version>
 		</dependency>
+		<!-- Apache Commons Configuration -->
+		<dependency>
+			<groupId>commons-configuration</groupId>
+			<artifactId>commons-configuration</artifactId>
+			<version>1.10</version>
+			<type>jar</type>
+		</dependency>
+		<dependency>
+			<groupId>commons-configuration</groupId>
+			<artifactId>commons-configuration</artifactId>
+			<version>1.10</version>
+			<type>java-source</type>
+		</dependency>
 	</dependencies>
 </project>

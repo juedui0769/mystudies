@@ -25,6 +25,12 @@ public class HomePageProcessor implements PageProcessor {
 		 * el.select("a[href*=example.com]")
 		 */
 		Selectable selectable = html.$("div[id=IndustryNews]");
+		
+		/**
+		 * 只是个demo
+		 * 只抓取了p1
+		 * 
+		 */
 		Selectable p1 = selectable.$("ul[class=p1]");
 		
 		List<Selectable> list = p1.xpath("li").nodes();
