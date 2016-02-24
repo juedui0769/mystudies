@@ -1,0 +1,14 @@
+
+* 官网: http://logging.apache.org/log4j/1.2/
+* 出版物: http://logging.apache.org/log4j/1.2/publications.html
+* The complete log4j manual:
+  http://www.qos.ch/shop/products/log4jManual
+
+* 百度搜索"The complete log4j manual"能找到此书的下载地址.
+  |- 目前正在阅读此书.
+  |- 
+
+
+
+
+
