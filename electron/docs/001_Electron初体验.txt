@@ -1,0 +1,22 @@
+﻿
+* 官网:
+  |- http://electron.atom.io/
+
+* 下载 electron-quick-start 并运行.
+
+# Clone this repository
+git clone https://github.com/atom/electron-quick-start
+# Go into the repository
+cd electron-quick-start
+# Install dependencies and run the app
+npm install && npm start
+
+* 需要下载一个Chromium,这是一个很大的程序,连接到国外的仓库,下载会死掉.这时候需要连接到淘宝的一个镜像下载地址.
+* 淘宝镜像:
+  |- http://npm.taobao.org/
+* electron-quick-start的淘宝镜像地址:
+  |- http://npm.taobao.org/package/electron-quick-start
+  |- 需要注意的是,淘宝镜像上的不是最新的版本.而从git上clone的"electron-quick-start"是最新的.
+  所以需要修改"package.json"文件,将版本降到淘宝镜像支持的版本上.否则也是会下载报错的.
+* 运行例子的命令是 "npm install && npm start" 并非 "node main.js"
+  
