@@ -20,3 +20,5 @@ npm install && npm start
   所以需要修改"package.json"文件,将版本降到淘宝镜像支持的版本上.否则也是会下载报错的.
 * 运行例子的命令是 "npm install && npm start" 并非 "node main.js"
   
+* 以下链接是electron的初体验指南:
+  |- http://electron.atom.io/docs/latest/tutorial/quick-start/
