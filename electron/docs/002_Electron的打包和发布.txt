@@ -1,8 +1,48 @@
 ﻿
 * 打包和发布可以参考以下视频:
   |- http://www.ejiakt.com/play/4956
+  |- 以上视频中提到的blog如下:
+  |- http://www.ejiakt.com/blog/show/62
+  |- 
+  |- 也可以参考官方的文档,如下:
+  |- http://electron.atom.io/docs/v0.36.8/tutorial/application-packaging/
+  |- 
+  |- 如下文档,讲解的更详细.
+  |- http://electron.atom.io/docs/v0.36.8/tutorial/application-distribution/
+  |- 
+  |- 
   
-* 
+  
+  
+* 实际操作步骤:
+  |- (1)首先需要安装"asar"这个打包工具. 
+        可以通过npm在淘宝镜像上下载"http://npm.taobao.org/package/asar",
+		npm使用淘宝镜像的方式请参考文档:"./001_Electron初体验.txt"
+  |- (2)参考../demo下的"helloElectron",运行如下命令:
+     asar pack helloElectron app.asar
+	 "asar list app.asar" 可以查看压缩包内容.
+  |- (3)需要下面地址下载一个符合当前操作系统的zip文件
+      https://github.com/atom/electron/releases
+	  或者到下面的百度网盘下载.
+	  http://pan.baidu.com/s/1c1gJ1ss
+	  http://pan.baidu.com/s/1pKzZWnx
+  |- (4)安装"electron-packager"
+     npm config set registry https://registry.npm.taobao.org
+	 npm info electron-packager
+	 # for use in npm scripts
+	 npm install electron-packager --save-dev
+	 # for use from cli
+     npm install electron-packager -g
+  |- "electron-packager"的用法参考如下地址:
+    https://github.com/maxogden/electron-packager/blob/master/usage.txt
+  |- (5)以"../demo/helloElectron"为例,运行如下命令会生成windows下的可执行文件.
+    electron-packager . helloElectron --platform=win32 --arch=ia32 --version=0.35.6
+  |- 
+  |- 总结: 因为运行以上命令要进行下载. 即使使用淘宝镜像也可能因为版本不同,而导致下载失败.
+    所以,最好还是自己下载某个版本,然后手动复制文件.
+  |- 
+  |- 
+  |- 
 
 
 
