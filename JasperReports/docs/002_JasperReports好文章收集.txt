@@ -1,0 +1,19 @@
+﻿
+
+* 使用JasperReport+iReport进行WEB开发　　--作者:金山
+  |- http://express.ruanko.com/ruanko-express_3/webpage/tech-overnight_1.html
+
+* 利用JasperReport+iReport进行Web报表开发
+  |- http://blog.csdn.net/kabini/article/details/1600073
+  
+* JasperReports API (version 6.2.0)
+  |- http://jasperreports.sourceforge.net/api/
+  |- http://jasperreports.sourceforge.net/api/overview-summary.html
+  
+  
+  
+  
+  
+
+
+
