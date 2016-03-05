@@ -7,6 +7,10 @@ http://jira.pentaho.com/browse/PRD/?selectedTab=com.atlassian.jira.jira-projects
 http://wiki.pentaho.com/display/Reporting/Pentaho+Reporting+Community+Documentation;jsessionid=18947C50BC1DEFB84B4E2C38F845B7F4
 http://forums.pentaho.com/forumdisplay.php?78-Pentaho-Reporting
 
+* javadoc: 
+  |- http://javadoc.pentaho.com/reporting/
+  |- 
+
 
 Pentaho 报表由一个核心报表引擎组成，它有基于 XML 的定义文件来可编程性地生成报表的能力。
 围绕着报表引擎，多种工具已经开发，包括用户图形界面设计和特别（ad-hoc）向导。
