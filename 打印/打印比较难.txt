@@ -1,0 +1,63 @@
+﻿
+市面上有很多"打印"相关的框架在销售.和"报表"类似.
+这说明这两个有一定的难度和通用性.
+
+-- 打印插件:
+http://printfree.jatools.com/
+http://www.jq22.com/jquery-info347
+http://flexreport.riaforge.org/
+-- JS框架:
+http://www.css88.com/archives/3014
+-- 打印相关文章
+http://www.iteye.com/topic/1131228
+http://bbs.csdn.net/topics/390507508
+web打印，web打印控件的三种实现方法 zz
+http://www.blogjava.net/midstr/archive/2009/06/23/256597.html
+http://www.cnblogs.com/dong0738/archive/2011/01/04/1925440.html
+
+
+
+pentaho:
+http://www.oschina.net/p/jfreereport
+http://www.jfree.org/
+http://www.pentaho.com/
+http://www.itisbi.com/forum.php
+http://www.itisbi.com/forum.php?mod=forumdisplay&fid=6
+
+lodop:
+http://www.lodop.net/
+http://blog.sina.com.cn/mtsoftware
+http://blog.csdn.net/harderxin/article/details/17262945
+
+Pentaho 报表 
+pentaho-reporting:
+http://community.pentaho.com/projects/reporting/
+https://github.com/pentaho/pentaho-reporting
+http://jira.pentaho.com/browse/PRD/?selectedTab=com.atlassian.jira.jira-projects-plugin:summary-panel
+http://wiki.pentaho.com/display/Reporting/Pentaho+Reporting+Community+Documentation;jsessionid=18947C50BC1DEFB84B4E2C38F845B7F4
+http://forums.pentaho.com/forumdisplay.php?78-Pentaho-Reporting
+
+
+
+
+Pentaho 报表由一个核心报表引擎组成，它有基于 XML 的定义文件来可编程性地生成报表的能力。围绕着报表引擎，多种工具已经开发，包括用户图形界面设计和特别（ad-hoc）向导。特别向导引导用户使用无需编写任何代码的图形工具一步接一步完成创建一个报表。
+
+一个著名的用例是为 OpenOffice.org Base 开发的 Sun Report Builde
+
+jfreereport:
+http://www.oschina.net/p/jfreereport
+JFreeReport：报表解决工具
+http://www.cnblogs.com/luffykingsc/archive/2013/04/17/3025958.html
+推荐6款常用的Java开源报表制作工具
+http://www.cnblogs.com/ayan/archive/2012/01/01/2309485.html
+
+报表系统 BIRT
+http://www.oschina.net/p/birt
+
+finereport, birt, 水晶报表, 
+国产报表工具比较活跃的有思迈特的Smartbi、帆软的Finereport、润乾报表。
+快逸报表是润乾的免费版。
+
+
+
+
