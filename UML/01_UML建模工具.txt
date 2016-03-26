@@ -1,0 +1,9 @@
+﻿
+* UML建模工具
+Enterprise Architect [ http://www.sparxsystems.cn/products/ ], [ http://www.oschina.net/p/enterprise-architect ]
+你认为最好的 UML 建模工具是哪一个（最好是免费软件）？ [ http://www.zhihu.com/question/20944207 ]
+ProcessOn(国产货，感觉很不错)
+GenMyModel(外国货，感觉也不错)
+http://www.gliffy.com/ 这个感觉也不错
+
+
