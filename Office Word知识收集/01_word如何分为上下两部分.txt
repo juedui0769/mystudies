@@ -1,0 +1,11 @@
+﻿
+* 百度知道: word上下两部分如何分？
+http://zhidao.baidu.com/link?url=NFkPgoXvpjENFLmvypHw58aTdqI_ja3duGn687rIbEdjH4mnwAo6v1b2Z8jiVZnCg4yCaa7RI0N_Kpnng-OaQK
+
+* 1.word上下两部分如何分？（不是分栏也不是分隔符分页符） 2.席签怎么在word打印，要求纸张上下平均分开
+    |- 稿纸设置——外框式稿纸——对折装订，这样设置好后显示的页面，便是只有半个A4纸大小了。
+
+
+
+
+
