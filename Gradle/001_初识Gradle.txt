@@ -1,0 +1,15 @@
+﻿
+* 下载: http://gradle.org/gradle-download/
+  |- 我下载的是完整版的, 包含源文件和离线文档.
+  |- 
+  |- 
+  
+* getting-started.html
+  |- 此文件位于加压zip文档的根目录下, 介绍了环境变量的设置.
+  |- 
+  |- 
+  |- 
+
+
+
+
