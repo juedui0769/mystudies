@@ -6,4 +6,8 @@ ProcessOn(国产货，感觉很不错)
 GenMyModel(外国货，感觉也不错)
 http://www.gliffy.com/ 这个感觉也不错
 
-
+* Enterprise Architect
+  |-- 
+  |-- 中文CHM帮助文档下载地址:  http://pan.baidu.com/s/1skPTa5v
+  |-- 
+  |-- 

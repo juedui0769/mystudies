@@ -4,6 +4,10 @@
   |- 
   |- 
   
+* 百度网盘的下载地址
+  |- gradle-2.12 http://pan.baidu.com/s/1mifCiTE 
+  
+  
 * getting-started.html
   |- 此文件位于加压zip文档的根目录下, 介绍了环境变量的设置.
   |- 
