@@ -5,3 +5,14 @@ E:\workspace\his
 
 C:\wxg\workspaces\violetumleditor
 
+注意事项：
+1、当换了工作空间后，注意调整eclipse的相关设置。
+	A、譬如： Maven
+	|- Installations: E:\tools\maven\apache-maven-3.1.0
+	|- User Settings: E:\tools\maven\apache-maven-3.1.0\conf\settings.xml
+	|- Local Repository: E:/tools/maven/repository/repos/
+
+2、工作空间的编码
+	|- General -> Workspace -> UTF-8
+	
+3、
