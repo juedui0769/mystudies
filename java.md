@@ -3,10 +3,10 @@
 * * *
 
 ###sun.misc.*
-- ÔÚÔÄ¶ÁÔ´ÂëµÄ¹ı³ÌÖĞ¾­³£»áÅöµ½"sun.misc.*"ÏÂÃæµÄÀà£¬Æ©Èç:"sun.misc.Resource","sun.misc.URLClassPath"µÈ¡£JDKºÍIDEÖĞ³£³£²»°üº¬ËüÃÇµÄÔ´Âë£¬Èç¹ûÏë¿´¿´¾ßÌåµÄÊµÏÖ£¬¸ÃÔõÃ´°ìÄØ£¿
-- ÔÚCSDNÂÛÌ³[sun.misc.Launcher](http://bbs.csdn.net/topics/330202558)ÕÒµ½ÁË´ğ°¸¡£
-- Ìû×ÓÖĞÊÇÕâÑùĞ´µÄ£º
-	> sun.misc.LauncherÊÇ JRE Àà¿â£¬JDK µÄ src ÖĞÃ»ÓĞ£¬ĞèÒªµ½[ÏÂÃæ](http://download.java.net/openjdk/jdk6/)Õâ¸öµØÖ·È¥ÏÂÔØ OpenJDK 6 µÄÔ´´úÂë¡£½âÑ¹µ½ %OPENJDK6_HOME% Ä¿Â¼ÖĞ£¬sun.misc.Launcher Î»ÓÚ **%OPENJDK6_HOME%/jdk/src/share/classes/sun/misc** Ä¿Â¼Àï¡£
-- ²¹³äÏÂopenjdkµÄÏÂÔØµØÖ·: <https://java.net/projects/openjdk6/downloads/>  ½«ÆäÖĞµÄ**6**»»³É**7**¾ÍÊÇopenjdk7µÄÏÂÔØµØÖ·¡£
+- åœ¨é˜…è¯»æºç çš„è¿‡ç¨‹ä¸­ç»å¸¸ä¼šç¢°åˆ°"sun.misc.*"ä¸‹é¢çš„ç±»ï¼Œè­¬å¦‚:"sun.misc.Resource","sun.misc.URLClassPath"ç­‰ã€‚JDKå’ŒIDEä¸­å¸¸å¸¸ä¸åŒ…å«å®ƒä»¬çš„æºç ï¼Œå¦‚æœæƒ³çœ‹çœ‹å…·ä½“çš„å®ç°ï¼Œè¯¥æ€ä¹ˆåŠå‘¢ï¼Ÿ
+- åœ¨CSDNè®ºå›[sun.misc.Launcher](http://bbs.csdn.net/topics/330202558)æ‰¾åˆ°äº†ç­”æ¡ˆã€‚
+- å¸–å­ä¸­æ˜¯è¿™æ ·å†™çš„ï¼š
+	- sun.misc.Launcheræ˜¯ JRE ç±»åº“ï¼ŒJDK çš„ src ä¸­æ²¡æœ‰ï¼Œéœ€è¦åˆ°[ä¸‹é¢](http://download.java.net/openjdk/jdk6/)è¿™ä¸ªåœ°å€å»ä¸‹è½½ OpenJDK 6 çš„æºä»£ç ã€‚è§£å‹åˆ° %OPENJDK6_HOME% ç›®å½•ä¸­ï¼Œsun.misc.Launcher ä½äº **%OPENJDK6_HOME%/jdk/src/share/classes/sun/misc** ç›®å½•é‡Œã€‚
+- è¡¥å……ä¸‹openjdkçš„ä¸‹è½½åœ°å€: <https://java.net/projects/openjdk6/downloads/>  å°†å…¶ä¸­çš„**6**æ¢æˆ**7**å°±æ˜¯openjdk7çš„ä¸‹è½½åœ°å€ã€‚
 
 
