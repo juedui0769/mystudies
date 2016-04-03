@@ -16,3 +16,5 @@ C:\wxg\workspaces\violetumleditor
 	|- General -> Workspace -> UTF-8
 	
 3、
+Java -> Compiler -> JDK Compliance
+Java -> Installed JREs 
