@@ -4,6 +4,9 @@
 ######工作空间的编码
 - General -> Workspace -> UTF-8
 
+######字体设置
+- General -> Appearance -> Colors and Fonts -> Basic -> Text Font
+
 ######Maven
 - Installations: E:\tools\maven\apache-maven-3.1.0
 - User Settings: E:\tools\maven\apache-maven-3.1.0\conf\settings.xml
