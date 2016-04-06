@@ -9,9 +9,9 @@
 
 ######[radio](http://www.w3school.com.cn/jsref/dom_obj_radio.asp)
 - 根据name值来确定分组，我测试过。
-- <![CDATA[<input type="radio" id="chk01" name="chk">启用
+	<input type="radio" id="chk01" name="chk">启用
         <input type="radio" id="chk02" name="chk">禁用
-        <input type="radio" id="chk03" name="chk111">test]]>
+        <input type="radio" id="chk03" name="chk111">test
 - 
 
 
