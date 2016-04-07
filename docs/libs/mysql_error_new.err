@@ -1,0 +1,173 @@
+160407  0:28:58 [Note] Plugin 'FEDERATED' is disabled.
+160407  0:28:58 [Note] Plugin 'InnoDB' is disabled.
+160407  0:28:58 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+160407  0:28:58 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160407  0:28:58 [Note] Server socket created on IP: '0.0.0.0'.
+160407  0:28:58 [ERROR] Fatal error: Can't open and lock privilege tables: Can't find file: 'host' (errno: 2)
+160407  0:35:19 [Note] Plugin 'FEDERATED' is disabled.
+160407  0:35:19 [Note] Plugin 'InnoDB' is disabled.
+160407  0:35:19 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+160407  0:35:19 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160407  0:35:19 [Note] Server socket created on IP: '0.0.0.0'.
+160407  0:35:19 [ERROR] Fatal error: Can't open and lock privilege tables: Can't find file: 'host' (errno: 2)
+160407  0:35:23 [Note] Plugin 'FEDERATED' is disabled.
+160407  0:35:23 [Note] Plugin 'InnoDB' is disabled.
+160407  0:35:23 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3308
+160407  0:35:23 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160407  0:35:23 [Note] Server socket created on IP: '0.0.0.0'.
+160407  0:35:23 [ERROR] Fatal error: Can't open and lock privilege tables: Can't find file: 'host' (errno: 2)
+160407  0:36:01 [Note] Plugin 'FEDERATED' is disabled.
+160407  0:36:01 [Note] Plugin 'InnoDB' is disabled.
+160407  0:36:01 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3308
+160407  0:36:01 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160407  0:36:01 [Note] Server socket created on IP: '0.0.0.0'.
+160407  0:36:01 [ERROR] Fatal error: Can't open and lock privilege tables: Can't find file: 'host' (errno: 2)
+160407  0:36:05 [Note] Plugin 'FEDERATED' is disabled.
+160407  0:36:05 [Note] Plugin 'InnoDB' is disabled.
+160407  0:36:05 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3307
+160407  0:36:05 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160407  0:36:05 [Note] Server socket created on IP: '0.0.0.0'.
+160407  0:36:05 [ERROR] Fatal error: Can't open and lock privilege tables: Can't find file: 'host' (errno: 2)
+160407  0:37:39 [Note] Plugin 'FEDERATED' is disabled.
+160407  0:37:39 [Note] Plugin 'InnoDB' is disabled.
+160407  0:37:39 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+160407  0:37:39 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160407  0:37:39 [Note] Server socket created on IP: '0.0.0.0'.
+160407  0:37:39 [ERROR] Fatal error: Can't open and lock privilege tables: Can't find file: 'host' (errno: 2)
+160407  0:37:43 [Note] Plugin 'FEDERATED' is disabled.
+160407  0:37:43 [Note] Plugin 'InnoDB' is disabled.
+160407  0:37:43 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3308
+160407  0:37:43 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160407  0:37:43 [Note] Server socket created on IP: '0.0.0.0'.
+160407  0:37:43 [ERROR] Fatal error: Can't open and lock privilege tables: Can't find file: 'host' (errno: 2)
+160407  0:43:06 [Note] Plugin 'FEDERATED' is disabled.
+160407  0:43:06 [Note] Plugin 'InnoDB' is disabled.
+160407  0:43:06 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3308
+160407  0:43:06 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160407  0:43:06 [Note] Server socket created on IP: '0.0.0.0'.
+160407  0:43:06 [ERROR] Fatal error: Can't open and lock privilege tables: Can't find file: 'host' (errno: 2)
+160407  0:44:08 [Note] Plugin 'FEDERATED' is disabled.
+160407  0:44:08 [Note] Plugin 'InnoDB' is disabled.
+160407  0:44:08 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3308
+160407  0:44:08 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160407  0:44:08 [Note] Server socket created on IP: '0.0.0.0'.
+160407  0:44:08 [ERROR] Fatal error: Can't open and lock privilege tables: Can't find file: 'host' (errno: 2)
+160407  0:44:13 [Note] Plugin 'FEDERATED' is disabled.
+160407  0:44:13 [Note] Plugin 'InnoDB' is disabled.
+160407  0:44:13 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3307
+160407  0:44:13 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160407  0:44:13 [Note] Server socket created on IP: '0.0.0.0'.
+160407  0:44:13 [ERROR] Fatal error: Can't open and lock privilege tables: Can't find file: 'host' (errno: 2)
+160407  0:44:54 [Note] Plugin 'FEDERATED' is disabled.
+160407  0:44:54 [Note] Plugin 'InnoDB' is disabled.
+160407  0:44:54 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3307
+160407  0:44:54 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160407  0:44:54 [Note] Server socket created on IP: '0.0.0.0'.
+160407  0:44:54 [ERROR] Fatal error: Can't open and lock privilege tables: Can't find file: 'host' (errno: 2)
+160407  0:53:47 [Note] Plugin 'FEDERATED' is disabled.
+160407  0:53:47 [Note] Plugin 'InnoDB' is disabled.
+160407  0:53:47 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3307
+160407  0:53:47 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160407  0:53:47 [Note] Server socket created on IP: '0.0.0.0'.
+160407  0:53:47 [ERROR] Fatal error: Can't open and lock privilege tables: Can't find file: 'host' (errno: 2)
+160407  0:53:50 [Note] Plugin 'FEDERATED' is disabled.
+160407  0:53:50 [Note] Plugin 'InnoDB' is disabled.
+160407  0:53:50 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3307
+160407  0:53:50 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160407  0:53:50 [Note] Server socket created on IP: '0.0.0.0'.
+160407  0:53:50 [ERROR] Fatal error: Can't open and lock privilege tables: Can't find file: 'host' (errno: 2)
+160407  0:55:14 [Note] Plugin 'FEDERATED' is disabled.
+160407  0:55:14 [Note] Plugin 'InnoDB' is disabled.
+160407  0:55:14 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+160407  0:55:14 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160407  0:55:14 [Note] Server socket created on IP: '0.0.0.0'.
+160407  0:55:14 [ERROR] Fatal error: Can't open and lock privilege tables: Can't find file: 'host' (errno: 2)
+160407  0:55:17 [Note] Plugin 'FEDERATED' is disabled.
+160407  0:55:17 [Note] Plugin 'InnoDB' is disabled.
+160407  0:55:17 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+160407  0:55:17 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160407  0:55:17 [Note] Server socket created on IP: '0.0.0.0'.
+160407  0:55:17 [ERROR] Fatal error: Can't open and lock privilege tables: Can't find file: 'host' (errno: 2)
+160407  0:55:50 [Note] Plugin 'FEDERATED' is disabled.
+160407  0:55:50 [Note] Plugin 'InnoDB' is disabled.
+160407  0:55:50 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+160407  0:55:50 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160407  0:55:50 [Note] Server socket created on IP: '0.0.0.0'.
+160407  0:55:50 [ERROR] Fatal error: Can't open and lock privilege tables: Can't find file: 'host' (errno: 2)
+160407  1:36:31 [Note] Plugin 'FEDERATED' is disabled.
+160407  1:36:31 [Note] Plugin 'InnoDB' is disabled.
+160407  1:36:31 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3307
+160407  1:36:31 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160407  1:36:31 [Note] Server socket created on IP: '0.0.0.0'.
+160407  1:36:31 [ERROR] Fatal error: Can't open and lock privilege tables: Can't find file: 'user' (errno: 2)
+160407  1:36:34 [Note] Plugin 'FEDERATED' is disabled.
+160407  1:36:34 [Note] Plugin 'InnoDB' is disabled.
+160407  1:36:34 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3307
+160407  1:36:34 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160407  1:36:34 [Note] Server socket created on IP: '0.0.0.0'.
+160407  1:36:34 [ERROR] Fatal error: Can't open and lock privilege tables: Can't find file: 'user' (errno: 2)
+160407  1:40:13 [Note] Plugin 'FEDERATED' is disabled.
+160407  1:40:13 [Note] Plugin 'InnoDB' is disabled.
+160407  1:40:13 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3307
+160407  1:40:13 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160407  1:40:13 [Note] Server socket created on IP: '0.0.0.0'.
+160407  1:40:13 [ERROR] Fatal error: Can't open and lock privilege tables: Can't find file: 'db' (errno: 2)
+160407  1:41:37 [Note] Plugin 'FEDERATED' is disabled.
+160407  1:41:37 [Note] Plugin 'InnoDB' is disabled.
+160407  1:41:37 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3307
+160407  1:41:37 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160407  1:41:37 [Note] Server socket created on IP: '0.0.0.0'.
+160407  1:41:37 [ERROR] Fatal error: Can't open and lock privilege tables: Can't find file: 'proxies_priv' (errno: 2)
+160407  1:43:04 [Note] Plugin 'FEDERATED' is disabled.
+160407  1:43:04 [Note] Plugin 'InnoDB' is disabled.
+160407  1:43:04 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3307
+160407  1:43:04 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160407  1:43:04 [Note] Server socket created on IP: '0.0.0.0'.
+160407  1:43:04 [ERROR] Can't open and lock privilege tables: Can't find file: 'servers' (errno: 2)
+160407  1:43:05 [ERROR] Cannot open mysql.event
+160407  1:43:05 [ERROR] Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+160407  1:43:05 [Note] C:\xampp\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.32'  socket: ''  port: 3307  MySQL Community Server (GPL)
+160407  1:43:45 [Note] C:\xampp\xampp\mysql\bin\mysqld.exe: Normal shutdown
+
+160407  1:43:45 [Note] C:\xampp\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+160407  1:45:02 [Note] Plugin 'FEDERATED' is disabled.
+160407  1:45:02 [Note] Plugin 'InnoDB' is disabled.
+160407  1:45:02 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3307
+160407  1:45:02 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160407  1:45:02 [Note] Server socket created on IP: '0.0.0.0'.
+160407  1:45:02 [ERROR] Cannot open mysql.event
+160407  1:45:02 [ERROR] Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+160407  1:45:02 [Note] C:\xampp\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.32'  socket: ''  port: 3307  MySQL Community Server (GPL)
+160407  1:45:05 [Note] C:\xampp\xampp\mysql\bin\mysqld.exe: Normal shutdown
+
+160407  1:45:05 [Note] C:\xampp\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+160407  1:46:03 [Note] Plugin 'FEDERATED' is disabled.
+160407  1:46:03 [Note] Plugin 'InnoDB' is disabled.
+160407  1:46:03 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3307
+160407  1:46:03 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160407  1:46:03 [Note] Server socket created on IP: '0.0.0.0'.
+160407  1:46:03 [ERROR] Cannot open mysql.event
+160407  1:46:03 [ERROR] Event Scheduler: An error occurred when initializing system tables. Disabling the Event Scheduler.
+160407  1:46:03 [Note] C:\xampp\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.32'  socket: ''  port: 3307  MySQL Community Server (GPL)
+160407  1:46:14 [Note] C:\xampp\xampp\mysql\bin\mysqld.exe: Normal shutdown
+
+160407  1:46:14 [Note] C:\xampp\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+160407  1:49:57 [Note] Plugin 'FEDERATED' is disabled.
+160407  1:49:57 [Note] Plugin 'InnoDB' is disabled.
+160407  1:49:57 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3307
+160407  1:49:57 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+160407  1:49:57 [Note] Server socket created on IP: '0.0.0.0'.
+160407  1:49:57 [Note] Event Scheduler: Loaded 0 events
+160407  1:49:57 [Note] C:\xampp\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.32'  socket: ''  port: 3307  MySQL Community Server (GPL)
+160407  1:50:04 [Note] C:\xampp\xampp\mysql\bin\mysqld.exe: Normal shutdown
+
+160407  1:50:04 [Note] Event Scheduler: Purging the queue. 0 events
+160407  1:50:04 [Note] C:\xampp\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
