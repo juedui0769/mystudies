@@ -12,7 +12,6 @@
 - \<input type="radio" id="chk01" **name="chk"**\>启用
   \<input type="radio" id="chk02" **name="chk"**\>禁用
   \<input type="radio" id="chk03" **name="chk111"**\>test
-- 
 
 ######需要在md文件中引用当前目录下其他包含中文字符的资源文件时
 - 在chrome浏览器的console下执行encodeURI
