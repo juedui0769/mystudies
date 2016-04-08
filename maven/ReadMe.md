@@ -6,7 +6,7 @@
 - Dynamic Web Module 3.0 requires Java 1.6 or newer.
 - One or more constraints have not been satisfied.
 - 可以采用下面的方式解决
-<pre><code>
+```xml
 	<build>
         <plugins>  
             <plugin>  
@@ -20,7 +20,7 @@
             </plugin>
         </plugins>
 	</build>
-</code></pre>
+```
 - Project configuration is not up-to-date with pom.xml. Run Maven->Update Project or use Quick Fix.	
 - 保存，项目构建完成后在项目文件夹上点右键，选择Maven->Update Project Configuration
 
@@ -33,8 +33,8 @@
 ######Maven 源码阅读
 - 官网下载地址只提供 bin, src 的压缩包下载.貌似没有带doc的压缩包下载.
 - 解压src会看到有很多子目录. 如下: 
-	<table><tr><td> apache-maven, maven-aether-provider, maven-artifact, maven-compat, </td></tr>
-	<tr><td> maven-core, maven-embedder, maven-model, maven-model-builder, </td></tr>
-	<tr><td> maven-plugin-api, maven-repository-metadata, maven-settings, </td></tr>
-	<tr><td> maven-settings-builder, src </td></tr></table>
+	| apache-maven, maven-aether-provider, maven-artifact, maven-compat, 
+	 maven-core, maven-embedder, maven-model, maven-model-builder, 
+	 maven-plugin-api, maven-repository-metadata, maven-settings, 
+	 maven-settings-builder, src |
 - 打开任何文件夹都有 pom.xml 文件. 从中可以看到很多有用的信息. maven-core下还有test
