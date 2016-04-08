@@ -6,6 +6,7 @@
 - Dynamic Web Module 3.0 requires Java 1.6 or newer.
 - One or more constraints have not been satisfied.
 - 可以采用下面的方式解决
+
 ```xml
 <build>
 	<plugins>  
