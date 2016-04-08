@@ -6,7 +6,7 @@
 - Dynamic Web Module 3.0 requires Java 1.6 or newer.
 - One or more constraints have not been satisfied.
 - 可以采用下面的方式解决
-
+<pre><code>
 	<build>
         <plugins>  
             <plugin>  
@@ -17,10 +17,10 @@
                     <source>1.6</source>  
                     <target>1.6</target>  
                 </configuration>  
-            </plugin>  
+            </plugin>
         </plugins>
 	</build>
-
+</code></pre>
 - Project configuration is not up-to-date with pom.xml. Run Maven->Update Project or use Quick Fix.	
 - 保存，项目构建完成后在项目文件夹上点右键，选择Maven->Update Project Configuration
 
