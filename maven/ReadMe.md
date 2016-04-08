@@ -1,8 +1,8 @@
 ﻿
-######Maven
+#####Maven
 - [Maven4.0 Xml Schema 的地址](http://maven.apache.org/xsd/maven-4.0.0.xsd)
 
-######当eclipse中出现如下错误： 
+#####当eclipse中出现如下错误： 
 - Dynamic Web Module 3.0 requires Java 1.6 or newer.
 - One or more constraints have not been satisfied.
 - 可以采用下面的方式解决
@@ -24,13 +24,43 @@
 - Project configuration is not up-to-date with pom.xml. Run Maven->Update Project or use Quick Fix.	
 - 保存，项目构建完成后在项目文件夹上点右键，选择Maven->Update Project Configuration
 
-######在xsd中搜索下面code能找到'Dependency'中能够包含的所有元素.
+#####如果需要将maven中的jar包导出可以采用：
+```xml
+<build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-dependency-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>copy-dependencies</id>
+            <phase>package</phase>
+            <goals>
+              <goal>copy-dependencies</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${project.build.directory}/libs</outputDirectory>
+              <overWriteReleases>false</overWriteReleases>
+              <overWriteSnapshots>false</overWriteSnapshots>
+              <overWriteIfNewer>true</overWriteIfNewer>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+</build>
+```
+- 拷贝上面的代码到pom.xml中,运行"mvn package"
+- <http://stackoverflow.com/questions/1751551/maven-how-to-export-project-with-sources-and-dependencies>
+- <http://stackoverflow.com/questions/97640/force-maven2-to-copy-dependencies-into-target-lib>
+
+#####在xsd中搜索下面code能找到'Dependency'中能够包含的所有元素.
 - \<xs:complexType name="Dependency"\>
 - type : pom, jar, maven-plugin, ejb, ejb3, war, rar, par, java-source, javadoc, ejb-client, test-jar
 - [参考](http://maven.apache.org/ref/3.3.9/maven-core/artifact-handlers.html) , [或参考文件](./%E5%88%86%E6%9E%90maven-4.0.0.xsd/001_maven-core_artifact-handlers.html)
 - type的值只能写一个,默认是jar. 不能写成 \<type\>jar,java-source\</type\> 
 
-######Maven 源码阅读
+#####Maven 源码阅读
 - 官网下载地址只提供 bin, src 的压缩包下载.貌似没有带doc的压缩包下载.
 - 解压src会看到有很多子目录. 如下: 
 	<table><tr><td> apache-maven, maven-aether-provider, maven-artifact, maven-compat, 
