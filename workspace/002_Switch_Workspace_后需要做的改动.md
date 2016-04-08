@@ -16,6 +16,10 @@
 - General -> Keys -> Content Assist : Alt+/
 - General -> Keys -> File Search : Ctrl+Alt+F
 
+######Server -> tomcat
+- Server Locations -> Use Tomcat installation(takes control of Tomcat installation)
+- Deploy path : wtpwebapps -> webapps
+
 ######JDK
 - Java -> Compiler -> JDK Compliance
 - Java -> Installed JREs
