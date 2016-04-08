@@ -8,9 +8,13 @@
 - General -> Appearance -> Colors and Fonts -> Basic -> Text Font
 
 ######Maven
-- Installations: E:\tools\maven\apache-maven-3.1.0
-- User Settings: E:\tools\maven\apache-maven-3.1.0\conf\settings.xml
-- Local Repository: E:/tools/maven/repository/repos/
+- **Installations**: E:\tools\maven\apache-maven-3.1.0
+- **User Settings**: E:\tools\maven\apache-maven-3.1.0\conf\settings.xml
+- **Local Repository**: E:/tools/maven/repository/repos/
+
+######keys
+- General -> Keys -> Content Assist : Alt+/
+- General -> Keys -> File Search : Ctrl+Alt+F
 
 ######JDK
 - Java -> Compiler -> JDK Compliance
