@@ -1,0 +1,92 @@
+[0A98:0E10][2016-04-09T09:16:29]i001: Burn v3.7.3813.0, Windows v6.1 (Build 7600: Service Pack 0), path: C:\Users\juedui0769\Downloads\VC_redist.x86.exe, cmdline: '-burn.unelevated BurnPipe.{35F5D46B-3945-41CA-8F4A-8A3C0194D825} {963461D3-AB95-4B29-B4C4-D2750768CD47} 3400'
+[0A98:0E10][2016-04-09T09:16:29]i000: Setting string variable 'WixBundleLog' to value 'C:\Users\JUEDUI~1\AppData\Local\Temp\dd_vcredist_x86_20160409091629.log'
+[0A98:0E10][2016-04-09T09:16:29]i000: Setting string variable 'WixBundleOriginalSource' to value 'C:\Users\juedui0769\Downloads\VC_redist.x86.exe'
+[0A98:0E10][2016-04-09T09:16:29]i000: Setting string variable 'WixBundleOriginalSourceFolder' to value 'C:\Users\juedui0769\Downloads\'
+[0A98:0E10][2016-04-09T09:16:29]i000: Setting string variable 'WixBundleName' to value 'Microsoft Visual C++ 2015 Redistributable (x86) - 14.0.23506'
+[0A98:0E10][2016-04-09T09:16:29]i100: Detect begin, 10 packages
+[0A98:0E10][2016-04-09T09:16:29]i000: File search: windows_uCRT_DetectKey, did not find path: C:\Windows\system32\ucrtbase.dll
+[0A98:0E10][2016-04-09T09:16:29]i000: File search: windows_uCRT_DetectKeyExists, did not find path: C:\Windows\system32\ucrtbase.dll
+[0A98:0E10][2016-04-09T09:16:29]i000: Setting numeric variable 'windows_uCRT_DetectKeyExists' to value 0
+[0A98:0E10][2016-04-09T09:16:29]i052: Condition '(VersionNT = v6.3 AND NOT VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+[0A98:0E10][2016-04-09T09:16:29]i052: Condition '(VersionNT = v6.3 AND VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+[0A98:0E10][2016-04-09T09:16:29]i052: Condition '(VersionNT = v6.2 AND NOT VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+[0A98:0E10][2016-04-09T09:16:29]i052: Condition '(VersionNT = v6.2 AND VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+[0A98:0E10][2016-04-09T09:16:29]i052: Condition '(VersionNT = v6.1 AND NOT VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+[0A98:0E10][2016-04-09T09:16:29]i052: Condition '(VersionNT = v6.1 AND VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+[0A98:0E10][2016-04-09T09:16:29]i052: Condition '(VersionNT = v6.0 AND NOT VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+[0A98:0E10][2016-04-09T09:16:29]i052: Condition '(VersionNT = v6.0 AND VersionNT64) AND (windows_uCRT_DetectKeyExists AND windows_uCRT_DetectKey >= v10.0.10240.0)' evaluates to false.
+[0A98:0E10][2016-04-09T09:16:29]i101: Detected package: vcRuntimeMinimum_x86, state: Absent, cached: None
+[0A98:0E10][2016-04-09T09:16:29]i101: Detected package: vcRuntimeAdditional_x86, state: Absent, cached: None
+[0A98:0E10][2016-04-09T09:16:29]i101: Detected package: Windows81_x86, state: Absent, cached: None
+[0A98:0E10][2016-04-09T09:16:29]i101: Detected package: Windows81_x64, state: Absent, cached: None
+[0A98:0E10][2016-04-09T09:16:29]i101: Detected package: Windows8_x86, state: Absent, cached: None
+[0A98:0E10][2016-04-09T09:16:29]i101: Detected package: Windows8_x64, state: Absent, cached: None
+[0A98:0E10][2016-04-09T09:16:29]i101: Detected package: Windows7_MSU_x86, state: Absent, cached: None
+[0A98:0E10][2016-04-09T09:16:29]i101: Detected package: Windows7_MSU_x64, state: Absent, cached: None
+[0A98:0E10][2016-04-09T09:16:29]i101: Detected package: WindowsVista_MSU_x86, state: Absent, cached: None
+[0A98:0E10][2016-04-09T09:16:29]i101: Detected package: WindowsVista_MSU_x64, state: Absent, cached: None
+[0A98:0E10][2016-04-09T09:16:29]i052: Condition 'VersionNT >= v6.0 OR (VersionNT = v5.1 AND ServicePackLevel >= 2) OR (VersionNT = v5.2 AND ServicePackLevel >= 1)' evaluates to true.
+[0A98:0E10][2016-04-09T09:16:29]i199: Detect complete, result: 0x0
+[0A98:0E10][2016-04-09T09:16:32]i200: Plan begin, 10 packages, action: Install
+[0A98:0E10][2016-04-09T09:16:32]i000: Setting string variable 'WixBundleRollbackLog_vcRuntimeMinimum_x86' to value 'C:\Users\JUEDUI~1\AppData\Local\Temp\dd_vcredist_x86_20160409091629_000_vcRuntimeMinimum_x86_rollback.log'
+[0A98:0E10][2016-04-09T09:16:32]i000: Setting string variable 'WixBundleLog_vcRuntimeMinimum_x86' to value 'C:\Users\JUEDUI~1\AppData\Local\Temp\dd_vcredist_x86_20160409091629_000_vcRuntimeMinimum_x86.log'
+[0A98:0E10][2016-04-09T09:16:32]i000: Setting string variable 'WixBundleRollbackLog_vcRuntimeAdditional_x86' to value 'C:\Users\JUEDUI~1\AppData\Local\Temp\dd_vcredist_x86_20160409091629_001_vcRuntimeAdditional_x86_rollback.log'
+[0A98:0E10][2016-04-09T09:16:32]i000: Setting string variable 'WixBundleLog_vcRuntimeAdditional_x86' to value 'C:\Users\JUEDUI~1\AppData\Local\Temp\dd_vcredist_x86_20160409091629_001_vcRuntimeAdditional_x86.log'
+[0A98:0E10][2016-04-09T09:16:32]i052: Condition 'VersionNT = v6.3 AND NOT VersionNT64' evaluates to false.
+[0A98:0E10][2016-04-09T09:16:32]w321: Skipping dependency registration on package with no dependency providers: Windows81_x86
+[0A98:0E10][2016-04-09T09:16:32]i052: Condition 'VersionNT = v6.3 AND VersionNT64' evaluates to false.
+[0A98:0E10][2016-04-09T09:16:32]w321: Skipping dependency registration on package with no dependency providers: Windows81_x64
+[0A98:0E10][2016-04-09T09:16:32]i052: Condition 'VersionNT = v6.2 AND NOT VersionNT64' evaluates to false.
+[0A98:0E10][2016-04-09T09:16:32]w321: Skipping dependency registration on package with no dependency providers: Windows8_x86
+[0A98:0E10][2016-04-09T09:16:32]i052: Condition 'VersionNT = v6.2 AND VersionNT64' evaluates to false.
+[0A98:0E10][2016-04-09T09:16:32]w321: Skipping dependency registration on package with no dependency providers: Windows8_x64
+[0A98:0E10][2016-04-09T09:16:32]i052: Condition 'VersionNT = v6.1 AND NOT VersionNT64' evaluates to true.
+[0A98:0E10][2016-04-09T09:16:32]w321: Skipping dependency registration on package with no dependency providers: Windows7_MSU_x86
+[0A98:0E10][2016-04-09T09:16:32]i052: Condition 'VersionNT = v6.1 AND VersionNT64' evaluates to false.
+[0A98:0E10][2016-04-09T09:16:32]w321: Skipping dependency registration on package with no dependency providers: Windows7_MSU_x64
+[0A98:0E10][2016-04-09T09:16:32]i052: Condition 'VersionNT = v6.0 AND NOT VersionNT64' evaluates to false.
+[0A98:0E10][2016-04-09T09:16:32]w321: Skipping dependency registration on package with no dependency providers: WindowsVista_MSU_x86
+[0A98:0E10][2016-04-09T09:16:32]i052: Condition 'VersionNT = v6.0 AND VersionNT64' evaluates to false.
+[0A98:0E10][2016-04-09T09:16:32]w321: Skipping dependency registration on package with no dependency providers: WindowsVista_MSU_x64
+[0A98:0E10][2016-04-09T09:16:32]i201: Planned package: vcRuntimeMinimum_x86, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: Uninstall, cache: Yes, uncache: No, dependency: Register
+[0A98:0E10][2016-04-09T09:16:32]i201: Planned package: vcRuntimeAdditional_x86, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: Uninstall, cache: Yes, uncache: No, dependency: Register
+[0A98:0E10][2016-04-09T09:16:32]i201: Planned package: Windows81_x86, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[0A98:0E10][2016-04-09T09:16:32]i201: Planned package: Windows81_x64, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[0A98:0E10][2016-04-09T09:16:32]i201: Planned package: Windows8_x86, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[0A98:0E10][2016-04-09T09:16:32]i201: Planned package: Windows8_x64, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[0A98:0E10][2016-04-09T09:16:32]i201: Planned package: Windows7_MSU_x86, state: Absent, default requested: Present, ba requested: Present, execute: Install, rollback: Uninstall, cache: Yes, uncache: No, dependency: None
+[0A98:0E10][2016-04-09T09:16:32]i201: Planned package: Windows7_MSU_x64, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[0A98:0E10][2016-04-09T09:16:32]i201: Planned package: WindowsVista_MSU_x86, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[0A98:0E10][2016-04-09T09:16:32]i201: Planned package: WindowsVista_MSU_x64, state: Absent, default requested: Absent, ba requested: Absent, execute: None, rollback: None, cache: No, uncache: No, dependency: None
+[0A98:0E10][2016-04-09T09:16:32]i299: Plan complete, result: 0x0
+[0A98:0E10][2016-04-09T09:16:32]i300: Apply begin
+[0D48:03C4][2016-04-09T09:16:32]i360: Creating a system restore point.
+[0D48:03C4][2016-04-09T09:16:35]i361: Created a system restore point.
+[0D48:03C4][2016-04-09T09:16:35]i370: Session begin, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{23daf363-3020-4059-b3ae-dc4ad39fed19}, options: 0x7, disable resume: No
+[0D48:03C4][2016-04-09T09:16:35]i000: Caching bundle from: 'C:\Users\JUEDUI~1\AppData\Local\Temp\{23daf363-3020-4059-b3ae-dc4ad39fed19}\.be\VC_redist.x86.exe' to: 'C:\ProgramData\Package Cache\{23daf363-3020-4059-b3ae-dc4ad39fed19}\VC_redist.x86.exe'
+[0D48:03C4][2016-04-09T09:16:35]i320: Registering bundle dependency provider: {23daf363-3020-4059-b3ae-dc4ad39fed19}, version: 14.0.23506.0
+[0D48:03C4][2016-04-09T09:16:35]i371: Updating session, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{23daf363-3020-4059-b3ae-dc4ad39fed19}, resume: Active, restart initiated: No, disable resume: No
+[0D48:09B8][2016-04-09T09:16:35]i304: Verified existing payload: vcRuntimeMinimum_x86 at path: C:\ProgramData\Package Cache\.unverified\vcRuntimeMinimum_x86.
+[0D48:09B8][2016-04-09T09:16:35]i305: Verified acquired payload: vcRuntimeMinimum_x86 at path: C:\ProgramData\Package Cache\.unverified\vcRuntimeMinimum_x86, moving to: C:\ProgramData\Package Cache\{65AD78AD-D23D-3A1E-9305-3AE65CD522C2}v14.0.23506\packages\vcRuntimeMinimum_x86\vc_runtimeMinimum_x86.msi.
+[0D48:09B8][2016-04-09T09:16:35]i304: Verified existing payload: cab54A5CABBE7274D8A22EB58060AAB7623 at path: C:\ProgramData\Package Cache\.unverified\cab54A5CABBE7274D8A22EB58060AAB7623.
+[0D48:09B8][2016-04-09T09:16:35]i305: Verified acquired payload: cab54A5CABBE7274D8A22EB58060AAB7623 at path: C:\ProgramData\Package Cache\.unverified\cab54A5CABBE7274D8A22EB58060AAB7623, moving to: C:\ProgramData\Package Cache\{65AD78AD-D23D-3A1E-9305-3AE65CD522C2}v14.0.23506\packages\vcRuntimeMinimum_x86\cab1.cab.
+[0D48:09B8][2016-04-09T09:16:35]i304: Verified existing payload: vcRuntimeAdditional_x86 at path: C:\ProgramData\Package Cache\.unverified\vcRuntimeAdditional_x86.
+[0D48:09B8][2016-04-09T09:16:35]i305: Verified acquired payload: vcRuntimeAdditional_x86 at path: C:\ProgramData\Package Cache\.unverified\vcRuntimeAdditional_x86, moving to: C:\ProgramData\Package Cache\{1045AB6F-6151-3634-8C2C-EE308AA1A6A7}v14.0.23506\packages\vcRuntimeAdditional_x86\vc_runtimeAdditional_x86.msi.
+[0D48:09B8][2016-04-09T09:16:35]i304: Verified existing payload: cabB3E1576D1FEFBB979E13B1A5379E0B16 at path: C:\ProgramData\Package Cache\.unverified\cabB3E1576D1FEFBB979E13B1A5379E0B16.
+[0D48:09B8][2016-04-09T09:16:35]i305: Verified acquired payload: cabB3E1576D1FEFBB979E13B1A5379E0B16 at path: C:\ProgramData\Package Cache\.unverified\cabB3E1576D1FEFBB979E13B1A5379E0B16, moving to: C:\ProgramData\Package Cache\{1045AB6F-6151-3634-8C2C-EE308AA1A6A7}v14.0.23506\packages\vcRuntimeAdditional_x86\cab1.cab.
+[0D48:09B8][2016-04-09T09:16:35]i304: Verified existing payload: Windows7_MSU_x86 at path: C:\ProgramData\Package Cache\.unverified\Windows7_MSU_x86.
+[0D48:09B8][2016-04-09T09:16:35]i305: Verified acquired payload: Windows7_MSU_x86 at path: C:\ProgramData\Package Cache\.unverified\Windows7_MSU_x86, moving to: C:\ProgramData\Package Cache\564F02E6419B9858949B0CD5A65E2C8C0944DD88\packages\Patch\x86\Windows6.1-KB2999226-x86.msu.
+[0D48:03C4][2016-04-09T09:16:35]i301: Applying execute package: vcRuntimeMinimum_x86, action: Install, path: C:\ProgramData\Package Cache\{65AD78AD-D23D-3A1E-9305-3AE65CD522C2}v14.0.23506\packages\vcRuntimeMinimum_x86\vc_runtimeMinimum_x86.msi, arguments: ' MSIFASTINSTALL="7" NOVSUI="1"'
+[0A98:0E10][2016-04-09T09:16:37]i319: Applied execute package: vcRuntimeMinimum_x86, result: 0x0, restart: None
+[0D48:03C4][2016-04-09T09:16:37]i325: Registering dependency: {23daf363-3020-4059-b3ae-dc4ad39fed19} on package provider: Microsoft.VS.VC_RuntimeMinimumVSU_x86,v14, package: vcRuntimeMinimum_x86
+[0D48:03C4][2016-04-09T09:16:37]i301: Applying execute package: vcRuntimeAdditional_x86, action: Install, path: C:\ProgramData\Package Cache\{1045AB6F-6151-3634-8C2C-EE308AA1A6A7}v14.0.23506\packages\vcRuntimeAdditional_x86\vc_runtimeAdditional_x86.msi, arguments: ' MSIFASTINSTALL="7" NOVSUI="1"'
+[0A98:0E10][2016-04-09T09:16:39]i319: Applied execute package: vcRuntimeAdditional_x86, result: 0x0, restart: None
+[0D48:03C4][2016-04-09T09:16:39]i325: Registering dependency: {23daf363-3020-4059-b3ae-dc4ad39fed19} on package provider: Microsoft.VS.VC_RuntimeAdditionalVSU_x86,v14, package: vcRuntimeAdditional_x86
+[0D48:03C4][2016-04-09T09:16:39]i301: Applying execute package: Windows7_MSU_x86, action: Install, path: C:\ProgramData\Package Cache\564F02E6419B9858949B0CD5A65E2C8C0944DD88\packages\Patch\x86\Windows6.1-KB2999226-x86.msu, arguments: '"C:\Windows\system32\wusa.exe" "C:\ProgramData\Package Cache\564F02E6419B9858949B0CD5A65E2C8C0944DD88\packages\Patch\x86\Windows6.1-KB2999226-x86.msu" /quiet /norestart'
+[0D48:03C4][2016-04-09T09:16:41]e000: Error 0x80240017: Failed to execute MSU package.
+[0A98:0E10][2016-04-09T09:16:41]e000: Error 0x80240017: Failed to configure per-machine MSU package.
+[0A98:0E10][2016-04-09T09:16:41]i319: Applied execute package: Windows7_MSU_x86, result: 0x80240017, restart: None
+[0A98:0E10][2016-04-09T09:16:41]e000: Error 0x80240017: Failed to execute MSU package.
+[0D48:03C4][2016-04-09T09:16:41]i372: Session end, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{23daf363-3020-4059-b3ae-dc4ad39fed19}, resume: ARP, restart: None, disable resume: No
+[0D48:03C4][2016-04-09T09:16:41]i371: Updating session, registration key: SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{23daf363-3020-4059-b3ae-dc4ad39fed19}, resume: ARP, restart initiated: No, disable resume: No
+[0A98:0E10][2016-04-09T09:16:41]i399: Apply complete, result: 0x80240017, restart: None, ba requested restart:  No
