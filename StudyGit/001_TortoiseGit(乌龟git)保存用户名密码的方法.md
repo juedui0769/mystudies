@@ -7,6 +7,7 @@
 #####首选方式
 - 建立了一个项目后, 在项目根目录下有个 ".git" 目录. 修改其中的 "config" 文件.
 - 在"config"文件中,添加两行代码, 如下:
+
 ```
 [credential]
 	helper = store
